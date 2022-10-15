@@ -1,0 +1,194 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_parceiro2",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_objeto",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_minhaidade",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_meunome",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Aceitar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Parceiro1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "parceiro1",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "terminar",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Parceiro2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "parceiro2",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "aceitar",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Quemtapedindo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idadedosolicitante",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "objectContrato",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tempouniaocomprovada",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "terminarnamoro",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contratoNotaMinima.sol": "ContratoNamoroMetaVerso"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contratoNotaMinima.sol": {
+			"keccak256": "0xc637be88b2f67b6ffa745d671ff83b330610bdea151712fa430cd5e41208118c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://50ad08c94d3702e4580d37d8694158f6d6e45e97c252493f2bf8b826857775ad",
+				"dweb:/ipfs/QmaUzmj9TQBNivSWJD6PhqLziYPQNDp5anAo3tzEY2s41q"
+			]
+		}
+	},
+	"version": 1
+}

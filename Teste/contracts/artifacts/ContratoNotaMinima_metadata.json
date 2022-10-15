@@ -1,0 +1,194 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "solicitado",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "professor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "objeto",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "notaRequerida",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "solicitante",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Aceitar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Pessoa1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pessoa1",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "terminar",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Pessoa2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pessoa2",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "aceitar",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Quemtapedindo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "notaMinima",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "objectContrato",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tempoContratoNota",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "terminarContrato",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/contratoNotaMinima.sol": "ContratoNotaMinima"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/contratoNotaMinima.sol": {
+			"keccak256": "0x4db09b74044f8207f0a4e13db4aeb13c8a99d4d923b8f97703a51e4a21c95683",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c60ce8cbe743da363df41f7d6c34f990e0b9c384067c397b26d98be1965645b3",
+				"dweb:/ipfs/QmWqEz97iVoRHa4kiq9cez9Nxwk5FbVcKffPBgNN8P9EVQ"
+			]
+		}
+	},
+	"version": 1
+}
